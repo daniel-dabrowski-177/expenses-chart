@@ -97,12 +97,14 @@ header span {
   margin: 0 0 10px 0;
   text-align: center;
   display: none;
+  top: -40px;
+  left: -8px;
 }
 
 .column {
   background-color: var(--soft-red);
   border-radius: 5px;
-  width: 38px;
+  width: 25px;
   margin: 0 8px;
 }
 
@@ -110,8 +112,14 @@ header span {
   opacity: 0.5;
 }
 
+.c-wrapper {
+  position: relative;
+}
+
 .c-wrapper:hover .amount {
   display: block;
+  z-index: 2;
+  position: absolute;
 }
 
 .c-wrapper p {
