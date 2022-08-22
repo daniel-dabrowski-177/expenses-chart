@@ -71,7 +71,7 @@ header span {
 .chart-container {
   height: 210px;
   display: flex;
-  padding: 0 20px;
+  padding: 0 15px;
   justify-content: space-between;
   align-items: end;
   margin: 120px 0 0 0;
@@ -82,7 +82,7 @@ header span {
   bottom: 145px;
   display: block;
   content: "";
-  width: calc(100% - 40px);
+  width: calc(100% - 30px);
   height: 6px;
   background-color: var(--cream);
 }
